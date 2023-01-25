@@ -1,6 +1,6 @@
 # Me-Talk-app
 
 "
-This is an a self talk site where you get chat(for the sake of sanity) with yourself and type what you are 
+This is an a self talk site where you get to chat with yourself (for the sake of sanity) and type what you are feeling
 "
 <img src ="image/screens.jpg>
