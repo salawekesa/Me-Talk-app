@@ -17,12 +17,15 @@
 
 
         <section class="bodyarea">
-            <div class="feeling">
-                <p>I am feeling nostalgic.</p>
-            </div>
-            <div class="feeling">
-                <p>Lorem ipsum dol elit. Exercitationem, illum.</p>
-            </div>
+            <p class="alert"></p>
+
+            <article class="feeling">
+                <p id="textt">I am feeling nostalgic.</p>
+                <button class="delete message-control">Del</button>
+                <button class="edit message-control">Edit</button>
+            </article>
+            
+      
         
         </section>
 
@@ -31,17 +34,16 @@
 
 
 
-        <section class="typearea">
-            <input placeholder="what are you feeling">
-
+        <form class="typearea">
+            <input type="text" placeholder="what are you feeling" id="typed">
             </input>
-            <button class="btn">
+            <button type="submit" class="btn-submit">
                 <img src="image/send.png" class="send">
             </button>
-        </section>
+        </form>
 
     </section>
 
-
+<script src="style.js"></script>
 </body>
 </html>

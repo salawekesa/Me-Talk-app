@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -67,7 +68,6 @@ span{
 
     /* border: 1px solid greenyellow; */
 }
-
 .main .bodyarea .feeling{
     width: 90%;
     min-height: 30px;
@@ -78,11 +78,32 @@ span{
     margin: .4rem;
     border-radius: 10px;
 }
+.message-control{
+    float: right;
+    padding: 2px 10px;
+    margin: 3px 3px 0 3px;
+    border-radius: 5px;
+    border: none;
+}
+.delete:hover{
+    background-color: var(--Light-red);
+}
+.edit:hover{
+    background-color: var(--Lime-green);
+}
 
+.alert{
+    width: 60%;
+    text-align: center;
+    
+}
 
-
-
-
+.alert-danger{
+    background-color: var(--Light-orange);
+}
+.alert-success{
+    background-color: var(--Lime-green);
+}
 
 
 
@@ -121,7 +142,7 @@ button{
     object-fit: cover;
 }
 
-.main .typearea .btn img{
+.main .typearea .btn-submit img{
     max-width: 100%;
     max-height: auto;
 }
